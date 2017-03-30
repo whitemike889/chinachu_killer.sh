@@ -11,7 +11,7 @@
 録画番組はNAS上に保存するっていう人向け。  
 ローカルに保存してsambaで視聴する人はsmbstatusとかでif文を追加するといいと思う。
 
-sudoでcrontabに`*/30 * * * * /home/foo/bar/chinachu_killer.sh`としておけば、あとは放置でok。
+crontabに`*/30 * * * * root /home/foo/bar/chinachu_killer.sh`としておけば、あとは放置でok。
 
 ___
 #### 前提条件  
