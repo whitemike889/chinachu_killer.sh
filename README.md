@@ -14,7 +14,7 @@
 sudoでcrontabに`*/30 * * * * /home/foo/bar/chinachu_killer.sh`としておけば、あとは放置でok。
 
 ___
-前提条件（変更するべき箇所）：  
+#### 前提条件  
 * chinachuのport：10772
 * chinachuの設置場所：/home/chinachu/chinachu/
 * スクリプトの置き場所：/home/foo/bar/
